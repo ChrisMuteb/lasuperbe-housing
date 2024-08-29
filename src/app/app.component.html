@@ -3,6 +3,17 @@
     <img src="/src/assets/logo.svg" alt="logo">
     <section>mettre mon logement sur la lasuperbe & sign in</section>
   </header>
-  <nav>list of menu links</nav>
-  <section>pictures of each house/apartment</section>
+  <nav>
+    <ul>
+      <li><a routerLink="/">Iconiques</a></li>
+      <li><a routerLink="/piscines">Piscines</a></li>
+      <li><a routerLink="/bordmer">Bord de mer</a></li>
+      <li><a routerLink="/chateaux">Chateaux</a></li>
+      <li><a routerLink="/iles">Iles</a></li>
+      <li><a routerLink="/piedpistes">Au pied des pistes</a></li>
+    </ul>
+  </nav>
+  <section>
+    <router-outlet></router-outlet>
+  </section>
 </main>
